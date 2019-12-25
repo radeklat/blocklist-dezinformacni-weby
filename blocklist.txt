@@ -1,17 +1,14 @@
 [Adblock Plus 2.0]
 ! Homepage: https://github.com/radeklat/blocklist-dezinformacni-weby
 ! Title: Dezinformační a manipulativní weby
-! Version: 3
+! Version: 4
 ! Reporting Issues: https://github.com/radeklat/blocklist-dezinformacni-weby/issues
 
 ! Zdroje:
 !  1. https://www.evropskehodnoty.cz/fungovani-ceskych-dezinformacnich-webu/weby_list/
 !  2. https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 
-! Find pattern: ##a[href*="://(.*)"]
-##a[href*=".(.*)"]
-||(.*)^$popup,third-party
-||(.*)
+! Find pattern: !!(.*)
 ! Replace pattern: ##a[href*="://$1"]\n##a[href*=".$1"]\n||$1^$popup,third-party\n||$1
 
 ! https://www.evropskehodnoty.cz/infowars/
