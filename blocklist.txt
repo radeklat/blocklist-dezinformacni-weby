@@ -1,15 +1,21 @@
 [Adblock Plus 2.0]
 ! Homepage: https://github.com/radeklat/blocklist-dezinformacni-weby
 ! Title: Dezinformační a manipulativní weby
-! Version: 4
+! Version: 3
 ! Reporting Issues: https://github.com/radeklat/blocklist-dezinformacni-weby/issues
 
 ! Zdroje:
 !  1. https://www.evropskehodnoty.cz/fungovani-ceskych-dezinformacnich-webu/weby_list/
+!  2. https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 
-! (1) Weby – tvůrci dezinformací a manipulací
+! Find pattern: ##a[href*="://(.*)"]
+##a[href*=".(.*)"]
+||(.*)^$popup,third-party
+||(.*)
+! Replace pattern: ##a[href*="://$1"]\n##a[href*=".$1"]\n||$1^$popup,third-party\n||$1
 
 ! https://www.evropskehodnoty.cz/infowars/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://infowars.cz"]
 ##a[href*=".infowars.cz"]
 ||infowars.cz^$popup,third-party
@@ -28,132 +34,155 @@
 ||vlastnihlavou.cz
 
 ! https://www.evropskehodnoty.cz/antiiluminati/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://antiilluminati.net"]
 ##a[href*=".antiilluminati.net"]
 ||antiilluminati.net^$popup,third-party
 ||antiilluminati.net
 
 ! https://www.evropskehodnoty.cz/isstras-institut-slovanskych-strategickych-studii/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://isstras.eu"]
 ##a[href*=".isstras.eu"]
 ||isstras.eu^$popup,third-party
 ||isstras.eu
 
 ! https://www.evropskehodnoty.cz/megazine/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://megazine.cz"]
 ##a[href*=".megazine.cz"]
 ||megazine.cz^$popup,third-party
 ||megazine.cz
 
 ! https://www.evropskehodnoty.cz/parat-dnes/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://paratdnes.cz"]
 ##a[href*=".paratdnes.cz"]
 ||paratdnes.cz^$popup,third-party
 ||paratdnes.cz
 
 ! https://www.evropskehodnoty.cz/e-republika/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://e-republika.cz"]
 ##a[href*=".e-republika.cz"]
 ||e-republika.cz^$popup,third-party
 ||e-republika.cz
 
 ! https://www.evropskehodnoty.cz/info-kuryr/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://infokuryr.cz"]
 ##a[href*=".infokuryr.cz"]
 ||infokuryr.cz^$popup,third-party
 ||infokuryr.cz
 
 ! https://www.evropskehodnoty.cz/osud/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://osud.cz"]
 ##a[href*=".osud.cz"]
 ||osud.cz^$popup,third-party
 ||osud.cz
 
 ! https://www.evropskehodnoty.cz/cesko-aktualne/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://ceskoaktualne.cz"]
 ##a[href*=".ceskoaktualne.cz"]
 ||ceskoaktualne.cz^$popup,third-party
 ||ceskoaktualne.cz
 
 ! https://www.evropskehodnoty.cz/vlastenecke-noviny/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://vlasteneckenoviny.cz"]
 ##a[href*=".vlasteneckenoviny.cz"]
 ||vlasteneckenoviny.cz^$popup,third-party
 ||vlasteneckenoviny.cz
 
 ! https://www.evropskehodnoty.cz/orgonet/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://orgo-net.blogspot.cz"]
 ##a[href*=".orgo-net.blogspot.cz"]
+##a[href*="://orgo-net.blogspot.com"]
+##a[href*=".orgo-net.blogspot.com"]
 ||orgo-net.blogspot.cz^$popup,third-party
 ||orgo-net.blogspot.cz
+||orgo-net.blogspot.com^$popup,third-party
+||orgo-net.blogspot.com
 
 ! https://www.evropskehodnoty.cz/eurasia24/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://eurasia24.cz"]
 ##a[href*=".eurasia24.cz"]
 ||eurasia24.cz^$popup,third-party
 ||eurasia24.cz
 
 ! https://www.evropskehodnoty.cz/prvopodstata/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://prvopodstata.com"]
 ##a[href*=".prvopodstata.com"]
 ||prvopodstata.com^$popup,third-party
 ||prvopodstata.com
 
 ! https://www.evropskehodnoty.cz/czech-free-press/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://czechfreepress.cz"]
 ##a[href*=".czechfreepress.cz"]
 ||czechfreepress.cz^$popup,third-party
 ||czechfreepress.cz
 
 ! https://www.evropskehodnoty.cz/svobodne-noviny/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://svobodnenoviny.eu"]
 ##a[href*=".svobodnenoviny.eu"]
 ||svobodnenoviny.eu^$popup,third-party
 ||svobodnenoviny.eu
 
 ! https://www.evropskehodnoty.cz/lajkit/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://lajkit.cz"]
 ##a[href*=".lajkit.cz"]
 ||lajkit.cz^$popup,third-party
 ||lajkit.cz
 
 ! https://www.evropskehodnoty.cz/new-world-order-opposition/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://nwoo.org"]
 ##a[href*=".nwoo.org"]
 ||nwoo.org^$popup,third-party
 ||nwoo.org
 
 ! https://www.evropskehodnoty.cz/nova-republika/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://novarepublika.cz"]
 ##a[href*=".novarepublika.cz"]
 ||novarepublika.cz^$popup,third-party
 ||novarepublika.cz
 
 ! https://www.evropskehodnoty.cz/aeronet/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://aeronet.cz"]
 ##a[href*=".aeronet.cz"]
 ||aeronet.cz^$popup,third-party
 ||aeronet.cz
 
 ! https://www.evropskehodnoty.cz/svet-kolem-nas/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://svetkolemnas.info"]
 ##a[href*=".svetkolemnas.info"]
 ||svetkolemnas.info^$popup,third-party
 ||svetkolemnas.info
 
 ! https://www.evropskehodnoty.cz/sputnik-cz/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://sputniknews.com"]
 ##a[href*=".sputniknews.com"]
 ||sputniknews.com^$popup,third-party
 ||sputniknews.com
 
 ! https://www.evropskehodnoty.cz/ac24/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://ac24.cz"]
 ##a[href*=".ac24.cz"]
 ||ac24.cz^$popup,third-party
 ||ac24.cz
-
-! (1) Dezinformační a manipulativní webové platformy
 
 ! https://www.evropskehodnoty.cz/parlamentni-listy/
 ! https://www.evropskehodnoty.cz/euserver/
@@ -162,6 +191,7 @@
 ! https://www.evropskehodnoty.cz/euportal/
 ! https://www.evropskehodnoty.cz/protiproud/
 ! https://www.evropskehodnoty.cz/prvni-zpravy/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://parlamentnilisty.cz"]
 ##a[href*=".parlamentnilisty.cz"]
 ||parlamentnilisty.cz^$popup,third-party
@@ -174,24 +204,25 @@
 ||casopis-sifra.cz
 
 ! https://www.evropskehodnoty.cz/rukojmi/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://rukojmi.cz"]
 ##a[href*=".rukojmi.cz"]
 ||rukojmi.cz^$popup,third-party
 ||rukojmi.cz
 
 ! https://www.evropskehodnoty.cz/bez-politicke-korektnosti/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://bezpolitickekorektnosti.cz"]
 ##a[href*=".bezpolitickekorektnosti.cz"]
 ||bezpolitickekorektnosti.cz^$popup,third-party
 ||bezpolitickekorektnosti.cz
 
 ! https://www.evropskehodnoty.cz/zvedavec/
+! https://cs.wikipedia.org/wiki/Dezinforma%C4%8Dn%C3%AD_web
 ##a[href*="://zvedavec.org"]
 ##a[href*=".zvedavec.org"]
 ||zvedavec.org^$popup,third-party
 ||zvedavec.org
-
-! (1) Dezinformační a manipulativní weby bez vlastního obsahu – agregátory
 
 ! https://www.evropskehodnoty.cz/almanach/
 ##a[href*="://almanach.cz"]
@@ -204,3 +235,65 @@
 ##a[href*=".pravdive.eu"]
 ||pravdive.eu^$popup,third-party
 ||pravdive.eu
+
+! Zdroj: (1)
+
+##a[href*="://vinegret.cz"]
+##a[href*=".vinegret.cz"]
+||vinegret.cz^$popup,third-party
+||vinegret.cz
+
+##a[href*="://skrytapravda.cz"]
+##a[href*=".skrytapravda.cz"]
+||skrytapravda.cz^$popup,third-party
+||skrytapravda.cz
+
+##a[href*="://eurodenik.cz"]
+##a[href*=".eurodenik.cz"]
+||eurodenik.cz^$popup,third-party
+||eurodenik.cz
+
+##a[href*="://freeglobe.cz"]
+##a[href*=".freeglobe.cz"]
+||freeglobe.cz^$popup,third-party
+||freeglobe.cz
+
+##a[href*="://eurabia.cz"]
+##a[href*=".eurabia.cz"]
+||eurabia.cz^$popup,third-party
+||eurabia.cz
+
+##a[href*="://cesky-portal.cz"]
+##a[href*=".cesky-portal.cz"]
+||cesky-portal.cz^$popup,third-party
+||cesky-portal.cz
+
+##a[href*="://nezdravi.cz"]
+##a[href*=".nezdravi.cz"]
+||nezdravi.cz^$popup,third-party
+||nezdravi.cz
+
+##a[href*="://borea.cz"]
+##a[href*=".borea.cz"]
+||borea.cz^$popup,third-party
+||borea.cz
+
+##a[href*="://smartnews.cz"]
+##a[href*=".smartnews.cz"]
+||smartnews.cz^$popup,third-party
+||smartnews.cz
+
+##a[href*="://megazpravy.cz"]
+##a[href*=".megazpravy.cz"]
+||megazpravy.cz^$popup,third-party
+||megazpravy.cz
+
+##a[href*="://zastavmezlodeje.com"]
+##a[href*=".zastavmezlodeje.com"]
+||zastavmezlodeje.com^$popup,third-party
+||zastavmezlodeje.com
+
+##a[href*="://dt24.cz"]
+##a[href*=".dt24.cz"]
+||dt24.cz^$popup,third-party
+||dt24.cz
