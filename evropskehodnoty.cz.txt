@@ -8,4 +8,4 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 !https://www.evropskehodnoty.cz/infowars/
-||infowars.cz^
+||infowars.cz^$popup,third-party
