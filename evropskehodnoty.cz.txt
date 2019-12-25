@@ -3,9 +3,7 @@
 ! Version: 3
 ! Source: https://www.evropskehodnoty.cz/fungovani-ceskych-dezinformacnich-webu/weby_list/
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!! Weby – tvůrci dezinformací a manipulací !!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Weby – tvůrci dezinformací a manipulací
 
-!https://www.evropskehodnoty.cz/infowars/
+! https://www.evropskehodnoty.cz/infowars/
 ||infowars.cz^$popup,third-party
