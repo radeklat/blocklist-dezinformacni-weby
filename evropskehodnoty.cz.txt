@@ -7,4 +7,4 @@
 ! Weby – tvůrci dezinformací a manipulací
 
 ! https://www.evropskehodnoty.cz/infowars/
-||infowars.cz^$popup,third-party
+||infowars.cz
