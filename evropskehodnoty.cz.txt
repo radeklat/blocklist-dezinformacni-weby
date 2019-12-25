@@ -1,4 +1,8 @@
-! Zdroj: https://www.evropskehodnoty.cz/fungovani-ceskych-dezinformacnich-webu/weby_list/
+! Homepage: https://github.com/radeklat/blocklist-dezinformacni-weby
+! Title: Dezinformační a manipulativní weby (evropskehodnoty.cz)
+! Version: 2
+
+!Zdroj: https://www.evropskehodnoty.cz/fungovani-ceskych-dezinformacnich-webu/weby_list/
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Weby – tvůrci dezinformací a manipulací !!
