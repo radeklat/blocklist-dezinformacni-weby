@@ -1,116 +1,11 @@
 ! Homepage: https://github.com/radeklat/blocklist-dezinformacni-weby
 ! Title: Dezinformační a manipulativní weby (evropskehodnoty.cz)
-! Version: 2
-
-!Zdroj: https://www.evropskehodnoty.cz/fungovani-ceskych-dezinformacnich-webu/weby_list/
+! Version: 3
+! Source: https://www.evropskehodnoty.cz/fungovani-ceskych-dezinformacnich-webu/weby_list/
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Weby – tvůrci dezinformací a manipulací !!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 !https://www.evropskehodnoty.cz/infowars/
-||infowars.cz
-
-!https://www.evropskehodnoty.cz/ikan/
-||mikan.cz
-
-!https://www.evropskehodnoty.cz/vlastni-hlavou/
-||vlastnihlavou.cz
-
-!https://www.evropskehodnoty.cz/antiiluminati/
-||antiilluminati.net
-
-!https://www.evropskehodnoty.cz/isstras-institut-slovanskych-strategickych-studii/
-||isstras.eu
-
-!https://www.evropskehodnoty.cz/megazine/
-||megazine.cz
-
-!https://www.evropskehodnoty.cz/parat-dnes/
-||paratdnes.cz
-
-!https://www.evropskehodnoty.cz/e-republika/
-||e-republika.cz
-
-!https://www.evropskehodnoty.cz/info-kuryr/
-||infokuryr.cz
-
-!https://www.evropskehodnoty.cz/osud/
-||osud.cz
-
-!https://www.evropskehodnoty.cz/cesko-aktualne/
-||ceskoaktualne.cz
-
-!https://www.evropskehodnoty.cz/vlastenecke-noviny/
-||vlasteneckenoviny.cz
-
-!https://www.evropskehodnoty.cz/orgonet/
-||orgo-net.blogspot.cz
-
-!https://www.evropskehodnoty.cz/eurasia24/
-||eurasia24.cz
-
-!https://www.evropskehodnoty.cz/prvopodstata/
-||prvopodstata.com
-
-!https://www.evropskehodnoty.cz/czech-free-press/
-||czechfreepress.cz
-
-!https://www.evropskehodnoty.cz/svobodne-noviny/
-||svobodnenoviny.eu
-
-!https://www.evropskehodnoty.cz/lajkit/
-||lajkit.cz
-
-!https://www.evropskehodnoty.cz/new-world-order-opposition/
-||nwoo.org
-
-!https://www.evropskehodnoty.cz/nova-republika/
-||novarepublika.cz
-
-!https://www.evropskehodnoty.cz/aeronet/
-||aeronet.cz
-
-!https://www.evropskehodnoty.cz/svet-kolem-nas/
-||svetkolemnas.info
-
-!https://www.evropskehodnoty.cz/sputnik-cz/
-||sputniknews.com
-
-!https://www.evropskehodnoty.cz/ac24/
-||ac24.cz
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!! Dezinformační a manipulativní webové platformy !!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-!https://www.evropskehodnoty.cz/parlamentni-listy/
-!https://www.evropskehodnoty.cz/euserver/
-!https://www.evropskehodnoty.cz/free-globe/
-!https://www.evropskehodnoty.cz/eportal/
-!https://www.evropskehodnoty.cz/euportal/
-!https://www.evropskehodnoty.cz/protiproud/
-!https://www.evropskehodnoty.cz/prvni-zpravy/
-||parlamentnilisty.cz
-
-!https://www.evropskehodnoty.cz/casopis-sifra/
-||casopis-sifra.cz
-
-!https://www.evropskehodnoty.cz/rukojmi/
-||rukojmi.cz
-
-!https://www.evropskehodnoty.cz/bez-politicke-korektnosti/
-||bezpolitickekorektnosti.cz
-
-!https://www.evropskehodnoty.cz/zvedavec/
-||zvedavec.org
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!! Dezinformační a manipulativní weby bez vlastního obsahu – agregátory !!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-!https://www.evropskehodnoty.cz/almanach/
-||almanach.cz
-
-!https://www.evropskehodnoty.cz/pravdive-eu/
-||pravdive.eu
+||infowars.cz^
