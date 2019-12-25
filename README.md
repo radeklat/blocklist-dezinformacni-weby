@@ -1,9 +1,9 @@
 # blocklist-dezinformacni-weby
 Adblock / uBlock Origin block listy s dezinformačnímy a manipulativními weby.
 
-# Odkazy na seznamy
+# Odkaz na seznamy
 
-* evropskehodnoty.cz: https://raw.githubusercontent.com/radeklat/blocklist-dezinformacni-weby/master/evropskehodnoty.cz.txt
+https://raw.githubusercontent.com/radeklat/blocklist-dezinformacni-weby/master/blocklist.txt
 
 # Jak přidat seznamy do rozšíření
 
