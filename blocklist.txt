@@ -294,3 +294,8 @@
 ##a[href*=".dt24.cz"]
 ||dt24.cz^$popup,third-party
 ||dt24.cz
+
+##a[href*="://otevrisvoumysl.cz"]
+##a[href*=".otevrisvoumysl.cz"]
+||otevrisvoumysl.cz^$popup,third-party
+||otevrisvoumysl.cz
