@@ -193,6 +193,10 @@
 ##a[href*=".parlamentnilisty.cz"]
 ||parlamentnilisty.cz^$popup,third-party
 ||parlamentnilisty.cz
+##a[href*="://parlamentni-listy.cz"]
+##a[href*=".parlamentni-listy.cz"]
+||parlamentni-listy.cz^$popup,third-party
+||parlamentni-listy.cz
 
 ! https://www.evropskehodnoty.cz/casopis-sifra/
 ##a[href*="://casopis-sifra.cz"]
@@ -299,3 +303,23 @@
 ##a[href*=".otevrisvoumysl.cz"]
 ||otevrisvoumysl.cz^$popup,third-party
 ||otevrisvoumysl.cz
+
+##a[href*="://prvnizpravy.cz"]
+##a[href*=".prvnizpravy.cz"]
+||prvnizpravy.cz^$popup,third-party
+||prvnizpravy.cz
+
+##a[href*="://protiproud.cz"]
+##a[href*=".protiproud.cz"]
+||protiproud.cz^$popup,third-party
+||protiproud.cz
+
+##a[href*="://euserver.cz"]
+##a[href*=".euserver.cz"]
+||euserver.cz^$popup,third-party
+||euserver.cz
+
+##a[href*="://euportal.cz"]
+##a[href*=".euportal.cz"]
+||euportal.cz^$popup,third-party
+||euportal.cz
